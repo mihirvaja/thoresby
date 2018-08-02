@@ -4,6 +4,7 @@
 <?php /* The loop */ ?>
 <?php if ( have_posts() ) : ?>
 	<?php while ( have_posts() ) : the_post(); ?>
+		<p>hi</p>
 	<?php
 
 		if(get_field('video_or_images') == "images"){

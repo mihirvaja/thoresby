@@ -1,0 +1,66 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: $font-stack;
+	font-size: 1.4rem;
+}
+
+.width-container {
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 0 2%;
+}
+
+
+
+// level 2 - tablet
+@media only screen and (min-width: 768px) and (max-width: 1040px) {
+	
+	html {
+		font-size: 9px;
+	}
+    
+
+	
+	
+}
+
+
+
+
+
+
+
+
+// level 3- large mobile
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+	html {
+		font-size: 7.5px;
+	}	
+	
+}
+
+
+
+
+
+
+
+
+// level 4 mobile
+@media only screen and (max-width: 480px), screen and (max-device-width: 480px){
+	
+	html {
+		font-size: 6.5px;
+	}		
+	
+	
+}

@@ -1,0 +1,208 @@
+.outer-footer {
+	background-color: $nav-hover;
+	height: 261px;
+
+	footer {
+		max-width: 1300px;
+		margin: 0 auto;
+		padding: 58px 2% 58px;
+		position: relative;
+		background-image: url(images/footer-leaf.png);
+		background-repeat: no-repeat;
+		background-position: bottom left;
+	}
+
+	.footer-left {
+		float:left;
+		font-size: 2.4rem;
+    	color: $white;
+     	margin-top: 45px;
+		
+		strong {
+			font-weight: 200;	
+		}
+
+    	span {
+    	    display: block;
+		    font-size: 2.8rem;
+    	}
+	}
+
+	.more-info {
+		font-size: 3rem;
+    	color: $white;
+    	font-weight: 300;
+
+    	a {
+    		color: $white;
+
+    		&:hover {
+    			color: $blue;
+    		}
+    	}
+	}
+
+	.footer-right {
+		float: right;
+    	margin-top: 25px;
+	}
+
+	.footer-logo-box {
+    	width: 240px;
+	    background: $blue;
+	    padding: 20px;
+	    box-sizing: border-box;
+	    border-bottom-right-radius: 15px;
+	}
+
+}
+
+
+.mobile {
+	display: none;	
+}
+
+.desktop {
+	display: block;	
+}
+
+
+
+
+
+@media only screen and (min-width: 1041px) and (max-width: 1240px) {
+
+	.outer-footer .more-info {
+		font-size: 2.5rem;
+	}
+
+}
+
+
+
+// level 2 - tablet
+@media only screen and (min-width: 768px) and (max-width: 1040px) {
+	
+	.outer-footer {
+
+		footer {
+			padding: 50px 2% 50px;
+		}
+
+		.more-info {
+			font-size: 2.5rem;
+		}
+
+		.footer-left {
+			font-size: 2rem;
+		}
+
+		.footer-right {
+			margin-top: 30px;
+		}
+
+		.footer-logo-box {
+		    width: 180px;
+		}
+	}	
+	
+	.mobile {
+        display: none;	
+    }
+
+    .desktop {
+        display: block;	
+    }
+}
+
+
+
+
+
+
+
+
+// level 3 - large mobile
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+	.outer-footer {
+		height: auto;
+
+		footer {
+			padding: 50px 2% 50px;
+		}
+
+		.more-info {
+			font-size: 2.5rem;
+		}
+
+		.footer-left {			
+			font-size: 2rem;
+			margin-top: 30px;
+   			width: calc(100% - 150px);
+		}
+	}
+
+	.outer-footer .footer-logo-box {
+	    width: 125px;
+    	padding: 15px;
+	}
+	
+	
+	.mobile {
+		display: block;	
+	}
+
+	.desktop {
+		display: none;	
+	}
+}
+
+
+
+
+
+
+
+
+
+// level 4 - mobile
+@media only screen and (max-width: 480px) , screen and (max-device-width: 480px) {
+
+	.outer-footer {
+		height: auto;
+
+		footer {
+			padding: 50px 2% 50px;
+		}
+
+		.more-info {
+			font-size: 2.5rem;
+		}
+		
+		.footer-left {			
+			font-size: 2rem;
+			margin-top: 10px;
+		}
+
+		.footer-right {
+			margin-top: 10px;
+		}
+	}
+
+	.outer-footer .footer-logo-box {
+	    width: 120px;
+	    padding: 12px;
+	}
+	
+	
+	.mobile {
+        display: block;	
+    }
+
+    .desktop {
+        display: none;	
+    }
+}
+
+

@@ -1,0 +1,35 @@
+
+/**
+ * Fonts (formats required are .eot, .woff, .ttf, .svg) 
+ * -----------------------------------------------------------------------------
+ */
+ @font-face {
+	font-family: HelveticaNeue;
+	font-weight: normal;
+	src: url('fonts/HelveticaNeue-Thin.eot');
+	src: url('fonts/HelveticaNeue-Thin.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeue-Thin.woff') format('woff'), url('fonts/HelveticaNeue-Thin.ttf') format('truetype'), url('fonts/HelveticaNeue-Thin.svg#HelveticaNeue-Thin') format('svg');
+}
+ @font-face {
+	font-family: HelveticaNeue;
+	font-weight: bold;
+	src: url('fonts/HelveticaNeue-Bold.eot');
+	src: url('fonts/HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeue-Bold.woff') format('woff'), url('fonts/HelveticaNeue-Bold.ttf') format('truetype'), url('fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+}
+ @font-face {
+	font-family: HelveticaNeue;
+	font-weight: 200;
+	src: url('fonts/HelveticaNeue-Light.eot');
+	src: url('fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeue-Light.woff') format('woff'), url('fonts/HelveticaNeue-Light.ttf') format('truetype'), url('fonts/HelveticaNeue-Light.svg#HelveticaNeue-Light') format('svg');
+}
+ @font-face {
+	font-family: HelveticaNeue;
+	font-weight: 500;
+	src: url('fonts/HelveticaNeue-Medium.eot');
+	src: url('fonts/HelveticaNeue-Medium.eot?#iefix') format('embedded-opentype'), url('fonts/HelveticaNeue-Medium.woff') format('woff'), url('fonts/HelveticaNeue-Medium.ttf') format('truetype'), url('fonts/HelveticaNeue-Medium.svg#HelveticaNeue-Medium') format('svg');
+}
+ 
+
+/**
+ * END of Fonts
+ * -----------------------------------------------------------------------------
+ */

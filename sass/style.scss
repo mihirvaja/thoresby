@@ -1,0 +1,33 @@
+/*!
+Theme Name: Thoresby Vale 2018
+Author: Chris Allen (Reach Marketing)
+Description: 
+Version: 1.0
+!*/
+
+@import '_font-imports';
+@import '_mixins';
+@import '_reset';
+
+// add variables here if needed
+
+//colors
+$white: #ffffff;
+$blue: #063462;
+$nav-hover: #6d7d3b;
+$harworth-blue: #002D61;
+
+// sizes
+
+
+// fonts
+$font-stack: "HelveticaNeue", "Helvetica", "Arial", sans-serif; 
+
+
+/* import styles here */
+@import '_header';
+@import '_general';
+
+@import '_homepage';
+
+@import '_footer';
